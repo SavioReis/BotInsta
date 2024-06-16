@@ -9,7 +9,7 @@ driver.get('https://www.instagram.com/')
 time.sleep(5)
 
 ################
-##### Colinha
+##### Cola
 ################
 #driver.find_element(By.XPATH,VARIAVEL)
 #driver.find_element(By.CLASS_NAME,VARIAVEL)
@@ -32,11 +32,11 @@ responder = 'xisnujt'
 ################
 login = driver.find_element(By.XPATH,campo_login)
 login.click()
-login.send_keys('bsavio791@gmail.com')
+login.send_keys('email_login@gmail.com') #email para conectar a conta do bot
 time.sleep(1)
 senha = driver.find_element(By.XPATH,campo_senha)
 senha.click()
-senha.send_keys('doideira2003')
+senha.send_keys('senha') #senha da conta
 time.sleep(1)
 senha.send_keys(Keys.ENTER)
 
